@@ -1,70 +1,55 @@
+好的，这里是您需要的完整 README.md 文件内容，已为您封装在Markdown代码块中。
+
+您只需点击右上角的“复制”按钮，然后将内容粘贴到您的 README.md 文件中即可。
+
+Markdown
+
 # RAG-Paper-Reading
 
-A repository for knowledge graph related to RAG and LLM.
+一个用于整理和学习检索增强生成（RAG）、大型语言模型（LLM）与知识图谱（KG）相关领域前沿论文的知识库。
 
-## 介绍 
+## 介绍
 
 这个仓库旨在记录和整理近年KG与LLM/RAG/Chain-of-Thought领域的前沿论文。
 
-并非一个完全的论文收集仓库，而是一个论文学习仓库。因此会附上部分自己的理解。
+这并非一个纯粹的论文收集仓库，而是一个旨在促进学习和理解的论文学习仓库。因此，每篇论文条目下都会附上简要的概述和自己的理解（待补充）。
+
 ## 目录 (Table of Contents)
 
-* [ToRead](#必读论文-must-read-papers)
-    * ACL2024 [Conversational Question Answering with Language Models Generated Reformulations over Knowledge Graph](#论文1标题)
-    * 
-
-* [HasRead](#相关资源-related-resources)
-
-
+* [ToRead](#toread)
+    * [Advancing Abductive Reasoning in Knowledge Graphs through Complex Logical Hypothesis Generation](#advancing-abductive-reasoning-in-knowledge-graphs-through-complex-logical-hypothesis-generation-acl-2024)
+    * [Conversational Question Answering with Language Models Generated Reformulations over Knowledge Graph](#conversational-question-answering-with-language-models-generated-reformulations-over-knowledge-graphacl-2024)
+    * [Graph Chain-of-Thought: Augmenting Large Language Models by Reasoning on Graphs](#graph-chain-of-thought-augmenting-large-language-models-by-reasoning-on-graphsacl-2024)
+    * [CogMG: Collaborative Augmentation Between Large Language Model and Knowledge Graph](#cogmg-collaborative-augmentation-between-large-language-model-and-knowledge-graph-acl-2024-demo)
+    * [Bi-Directional Multi-Granularity Generation Framework for Knowledge Graph-to-Text with Large Language Model](#bi-directional-multi-granularity-generation-framework-for-knowledge-graph-to-text-with-large-language-model-acl-2024)
+    * [HOLMES: Hyper-Relational Knowledge Graphs for Multi-hop Question Answering using LLMs](#holmes-hyper-relational-knowledge-graphs-for-multi-hop-question-answering-using-llms-acl-2024)
+    * [SAC-KG: Exploiting Large Language Models as Skilled Automatic Constructors for Domain Knowledge Graph](#sac-kg-exploiting-large-language-models-as-skilled-automatic-constructors-for-domain-knowledge-graph-acl-2024)
+    * [REANO: Optimising Retrieval-Augmented Reader Models through Knowledge Graph Generation](#reano-optimising-retrieval-augmented-reader-models-through-knowledge-graph-generation-acl-2024)
+    * [Direct Evaluation of Chain-of-Thought in Multi-hop Reasoning with Knowledge Graphs](#direct-evaluation-of-chain-of-thought-in-multi-hop-reasoning-with-knowledge-graphs-acl-2024)
+    * [LLM as Prompter: Low-resource Inductive Reasoning on Arbitrary Knowledge Graphs](#llm-as-prompter-low-resource-inductive-reasoning-on-arbitrary-knowledge-graphs-acl-2024)
+    * [Knowledge Graph-Enhanced Large Language Models via Path Selection](#knowledge-graph-enhanced-large-language-models-via-path-selection-acl-2024)
+    * [Leveraging Graph Structures to Detect Hallucinations in Large Language Models](#leveraging-graph-structures-to-detect-hallucinations-in-large-language-models-textgraphs-17)
+    * [NLPeople at TextGraphs-17 Shared Task: Chain of Thought Questioning to Elicit Decompositional Reasoning](#nlpeople-at-textgraphs-17-shared-task-chain-of-thought-questioning-to-elicit-decompositional-reasoning-textgraphs-17)
+* [HasRead](#hasread)
+* 
 ---
 
 
-## ToRead
-待读论文
-
----
-### [Advancing Abductive Reasoning in Knowledge Graphs through Complex Logical Hypothesis Generation (ACL 2024)](https://aclanthology.org/2024.acl-long.72.pdf)
-
----
-### [Conversational Question Answering with Language Models Generated Reformulations over Knowledge Graph（ACL 2024）](https://aclanthology.org/2024.findings-acl.48/)
-
---- 
-### [Graph Chain-of-Thought: Augmenting Large Language Models by Reasoning on Graphs（ACL 2024）](https://aclanthology.org/2024.findings-acl.11/)
-
----
-### [CogMG: Collaborative Augmentation Between Large Language Model and Knowledge Graph (ACL 2024 demo)](https://aclanthology.org/2024.acl-demos.35/)
-
----
-### [Bi-Directional Multi-Granularity Generation Framework for Knowledge Graph-to-Text with Large Language Model (ACL 2024)](https://aclanthology.org/2024.acl-short.14/)
-
----
-### [HOLMES: Hyper-Relational Knowledge Graphs for Multi-hop Question Answering using LLMs](https://aclanthology.org/2024.acl-long.717/)
-
----
-### [SAC-KG: Exploiting Large Language Models as Skilled Automatic Constructors for Domain Knowledge Graph (ACL 2024)](https://aclanthology.org/2024.acl-long.238/)
-
----
-### [REANO: Optimising Retrieval-Augmented Reader Models through Knowledge Graph Generation (ACL 2024)](https://aclanthology.org/2024.acl-long.115/)
-
----
-### [Direct Evaluation of Chain-of-Thought in Multi-hop Reasoning with Knowledge Graphs (ACL 2024)](https://aclanthology.org/2024.findings-acl.168/)
-
----
-### [LLM as Prompter: Low-resource Inductive Reasoning on Arbitrary Knowledge Graphs (ACL 2024)](https://aclanthology.org/2024.findings-acl.224/)
-
----
-### [Knowledge Graph-Enhanced Large Language Models via Path Selection (ACL 2024)](https://aclanthology.org/2024.findings-acl.376/)
-
----
-### [Leveraging Graph Structures to Detect Hallucinations in Large Language Models (textgraphs-17)](https://aclanthology.org/2024.textgraphs-1.7/)
-
----
-### [NLPeople at TextGraphs-17 Shared Task: Chain of Thought Questioning to Elicit Decompositional Reasoning (textgraphs-17)](https://aclanthology.org/2024.textgraphs-1.13/)
-
-
-------
-## HasRead
-已读论文
+* [ToRead](#toread)
+    * [Advancing Abductive Reasoning in Knowledge Graphs through Complex Logical Hypothesis Generation](#advancing-abductive-reasoning-in-knowledge-graphs-through-complex-logical-hypothesis-generation) - `ACL 2024`
+    * [Conversational Question Answering with Language Models Generated Reformulations over Knowledge Graph](#conversational-question-answering-with-language-models-generated-reformulations-over-knowledge-graph) - `Findings of ACL 2024`
+    * [Graph Chain-of-Thought: Augmenting Large Language Models by Reasoning on Graphs](#graph-chain-of-thought-augmenting-large-language-models-by-reasoning-on-graphs) - `Findings of ACL 2024`
+    * [CogMG: Collaborative Augmentation Between Large Language Model and Knowledge Graph](#cogmg-collaborative-augmentation-between-large-language-model-and-knowledge-graph) - `ACL 2024 Demo`
+    * [Bi-Directional Multi-Granularity Generation Framework for Knowledge Graph-to-Text with Large Language Model](#bi-directional-multi-granularity-generation-framework-for-knowledge-graph-to-text-with-large-language-model) - `ACL 2024 Short`
+    * [HOLMES: Hyper-Relational Knowledge Graphs for Multi-hop Question Answering using LLMs](#holmes-hyper-relational-knowledge-graphs-for-multi-hop-question-answering-using-llms) - `ACL 2024`
+    * [SAC-KG: Exploiting Large Language Models as Skilled Automatic Constructors for Domain Knowledge Graph](#sac-kg-exploiting-large-language-models-as-skilled-automatic-constructors-for-domain-knowledge-graph) - `ACL 2024`
+    * [REANO: Optimising Retrieval-Augmented Reader Models through Knowledge Graph Generation](#reano-optimising-retrieval-augmented-reader-models-through-knowledge-graph-generation) - `ACL 2024`
+    * [Direct Evaluation of Chain-of-Thought in Multi-hop Reasoning with Knowledge Graphs](#direct-evaluation-of-chain-of-thought-in-multi-hop-reasoning-with-knowledge-graphs) - `Findings of ACL 2024`
+    * [LLM as Prompter: Low-resource Inductive Reasoning on Arbitrary Knowledge Graphs](#llm-as-prompter-low-resource-inductive-reasoning-on-arbitrary-knowledge-graphs) - `Findings of ACL 2024`
+    * [Knowledge Graph-Enhanced Large Language Models via Path Selection](#knowledge-graph-enhanced-large-language-models-via-path-selection) - `Findings of ACL 2024`
+    * [Leveraging Graph Structures to Detect Hallucinations in Large Language Models](#leveraging-graph-structures-to-detect-hallucinations-in-large-language-models) - `textgraphs-17`
+    * [NLPeople at TextGraphs-17 Shared Task: Chain of Thought Questioning to Elicit Decompositional Reasoning](#nlpeople-at-textgraphs-17-shared-task-chain-of-thought-questioning-to-elicit-decompositional-reasoning) - `textgraphs-17`
+* [HasRead](#hasread)
 
 
 ---
